@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .main{
+        display: flex;
+    
+        
+    }
+    .div1{
+        padding: 10px 20px;
+        flex: 1;
+        background-color: rgb(218, 218, 218);
+        border: 2px  solid rgb(165, 161, 161);
+        height: 500px;
+    }
+    .div2{
+        flex: 3;
+        padding: 10px 40px;
+
+    }
+</style>
+<body>
+    <script type="text/babel">
+
+const root = document.getElementById("root");
+
+
+function MainCom(){
+    return <div>
+   
+        <div class="main">
+        <div class="div1" >
+            <h2>Maaz Ur Rehman</h2>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+
+            <h2>Contact</h2>
+            <hr/>
+            <br/>
+
+            <h4>Permenent Address</h4>
+            <p>Lorem ipsum dolor sit.</p>
+            <br/>
+
+            <br/>
+            <h4>Mailing Address</h4>
+            <p>Lorem ipsum dolor <br/> sit amet consectetur <br/> adipisicing elit. Quasi, delectus.</p>
+            <br/>
+            <br/>
+            <h4>Phone</h4>
+            
+            <p>03152543662</p>
+
+            <br/>
+            <br/>
+
+            <h4>Email</h4>
+            <a href="">maazurrehman42@gmail.com</a>
+            <br/>
+
+            <br/>
+            <h4>DOB</h4>
+            <p>4-4-2001</p>
+
+        </div>
+        <div class="div2">
+            <h1>Summary</h1>
+            <hr />
+            <p>Lorem, ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, velit delectus! Quidem esse totam excepturi dolores. Magni est soluta consequatur? adipisicing elit. Exercitationem quaerat optio est laboriosam eveniet tempora reiciendis quasi soluta autem alias.</p>
+            <br/>
+            <br/>
+
+            <h1>Skills Highlight</h1>
+            <hr/>
+            <ul>
+                <li>lorem</li>
+                <li>lorem</li>
+                <li>lorem</li>
+                <li>lorem</li>
+                <li>lorem</li>
+                <li>lorem</li>
+                <li>lorem</li>
+                <li>lorem</li>
+                <li>lorem</li>
+                <li>lorem</li>
+                
+            </ul>
+            <br/>
+            <br/>
+
+            <h1>Education</h1>
+            <hr/>
+            <ol>
+                <li><b>Graduation:</b>Smiu</li>
+                <li></li>                
+                <li><b>Matriculation:</b>Govt.Islamia</li>
+            </ol>
+            <br/>
+            <br/>
+
+
+            <h1>Experience</h1>
+            <ul>
+                <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas, a.</li>
+                <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas, a.</li>
+            </ul>
+        </div>
+    </div>
+    </div>
+}
+ReactDOM.render(<MainCom />,root)
+    </script>
+    
+<div id="root"></div>
+
+</body>
+</html>
